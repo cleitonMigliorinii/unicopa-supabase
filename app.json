@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "unicopa-novo",
-    "slug": "unicopa-novo",
+    "name": "unicopa",
+    "slug": "unicopa",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
