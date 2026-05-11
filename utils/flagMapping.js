@@ -52,4 +52,4 @@ export const TEAM_FLAGS = {
     UZB: require("../assets/jogos/uzbekistan.png"),
     URU: require("../assets/jogos/uruguay.png"),
     USA: require("../assets/jogos/united states.png"),
-};
+}

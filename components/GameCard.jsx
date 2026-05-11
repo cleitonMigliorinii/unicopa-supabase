@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { TEAM_FLAGS } from '../utils/flagMapping';
+import { StyleSheet, Text, View, Image } from 'react-native'
+import { TEAM_FLAGS } from '../utils/flagMapping'
 
 export default function GameCard({ game }) {
-  const timeCasa = TEAM_FLAGS[game.sigla_casa];
-  const timeFora = TEAM_FLAGS[game.sigla_fora];
+  const timeCasa = TEAM_FLAGS[game.sigla_casa]
+  const timeFora = TEAM_FLAGS[game.sigla_fora]
 
   const isBrazil = game.sigla_casa === 'BRA' || game.sigla_fora === 'BRA'
 
@@ -42,7 +42,7 @@ export default function GameCard({ game }) {
       </View>
 
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -98,4 +98,4 @@ const styles = StyleSheet.create({
     backgroundColor: '#16351f'
   },
 
-});
+})
